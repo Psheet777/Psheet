@@ -1,0 +1,48 @@
+.main__input {
+  width: 100%;
+  
+  div {
+
+    .input__box {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: column;
+      padding: 0 20px;
+
+      .input__text-box {
+
+        .input__head {
+          margin-bottom: 0;
+        }
+
+        .input__content {
+          display: flex;
+          justify-content: flex-end;
+
+          .input__tel {
+            font: 15px/24px sans-serif;
+            width: 100px;
+            padding: 0.3em;
+            margin-top: 10px;
+            transition: 0.3s;
+            border: 1px solid #1b2538;
+            border-radius: 4px;
+      
+            &:focus {
+              border: 1px solid #da3c41;
+              outline: none;
+              box-shadow: 0 0 5px 1px rgba(218,60,65, .5);
+            }
+          }
+
+          label {
+            margin: 20px 0 0 5px;
+          }
+        }
+      }
+    }
+
+    
+  }
+}
